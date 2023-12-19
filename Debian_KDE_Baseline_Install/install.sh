@@ -1,8 +1,7 @@
 #! /bin/sh
 
-apt update
-apt upgrade
-apt install
+apt update -y
+apt upgrade -y
 add-apt-repository ppa:kubuntu-ppa/backports-extra -y
-apt update
-apt install kde-standard
+apt update -y
+apt install kde-standard -y
